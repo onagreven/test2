@@ -194,9 +194,9 @@
     canvas.onmouseup = myUp;
     canvas.ondblclick = myDblClick;
       canvas.onmousemove = myMove;
-      canvas.ontouchstart = myTouchStart;
-      canvas.ontouchend = myTouchEnd;
-      canvas.addEventListener('touchmove', myTouchMove); //toevoegen van event (hetzelfde als hierboven gewoon andere schrijfwijze)
+     // canvas.ontouchstart = myTouchStart;
+     // canvas.ontouchend = myTouchEnd;
+     // canvas.addEventListener('touchmove', myTouchMove); //toevoegen van event (hetzelfde als hierboven gewoon andere schrijfwijze)
     
 
     // set up the selection handle boxes
@@ -918,9 +918,9 @@ function init2() {
   canvas.onmouseup = myUp;
   canvas.ondblclick = myDblClick;
     canvas.onmousemove = myMove;
-    canvas.ontouchstart = myTouchStart;
-      canvas.ontouchend = myTouchEnd;
-      canvas.addEventListener('touchmove', myTouchMove);
+    //canvas.ontouchstart = myTouchStart;
+     // canvas.ontouchend = myTouchEnd;
+     // canvas.addEventListener('touchmove', myTouchMove);
   
   // set up the selection handle boxes
   for (var i = 0; i < 8; i ++) {
